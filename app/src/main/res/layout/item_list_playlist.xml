@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/item_img_thumnail_playlist"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/item_img_menu_playlist"
+        android:layout_toRightOf="@+id/item_img_thumnail_playlist"
+        android:orientation="vertical">
+
+        <com.example.admin.youtubev3.CustomView.CustomTextView
+            android:id="@+id/item_txtv_title_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="Điều ngọt ngào nhát"
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+        <com.example.admin.youtubev3.CustomView.CustomTextView
+            android:id="@+id/item_txtv_title_channel_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="Khải channel"
+            android:textColor="@color/gray"
+            android:textSize="6pt" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_img_menu_playlist"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        android:tint="@color/gray" />
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_last_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                card_view:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.admin.youtubev3.CustomView.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:text="Gần đây"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycle_view_last_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp"></android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="VIDEO"
+                        android:textColor="@color/black"
+                        android:textSize="9pt" />
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_history"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_history_white_24dp" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Lịch sử" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_my_video"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_video_library_black_24dp" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Video của tôi" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_watch_last"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_watch_later_black_24dp" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Xem sau" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                card_view:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="THÔNG TIN"
+                        android:textColor="@color/black"
+                        android:textSize="9pt" />
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_report"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_if_flag" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Góp ý,báo lỗi" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_developer"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Nhà phát triển" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/item_layout_version"
+                        style="@style/layout_item_library">
+
+                        <ImageView
+                            style="@style/img_library"
+                            android:src="@drawable/ic_info_black_24dp" />
+
+                        <TextView
+                            style="@style/tv_library"
+                            android:text="Phiên bản" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YoutubeV3</string>
+    <string name="KEY">AIzaSyAwNm1IjKJIvrlvD7pN7__Dfp43dy7slF0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

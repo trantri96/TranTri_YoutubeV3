@@ -1,0 +1,33 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:3:5-34
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:1-9:12
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:5:3-7:38
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:5:3-7:38
+INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:5:3-7:38
+	android:targetSdkVersion
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:7:7-36
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+		INJECTED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\android project\YouTubeV3\YoutubeV3\draggablepanel\AndroidManifest.xml:6:7-32

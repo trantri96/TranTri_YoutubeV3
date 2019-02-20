@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_home_music"
+            style="@style/layout_title">
+
+            <android.support.design.widget.FloatingActionButton
+                style="@style/floating_button_title"
+                android:src="@drawable/ic_music"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.example.admin.youtubev3.CustomView.CustomTextView
+                style="@style/text_title"
+                android:text="Âm nhạc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_home_game"
+            style="@style/layout_title">
+
+            <android.support.design.widget.FloatingActionButton
+                style="@style/floating_button_title"
+                android:src="@drawable/ic_control_game"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.example.admin.youtubev3.CustomView.CustomTextView
+                style="@style/text_title"
+                android:text="Trò chơi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_home_movie"
+            style="@style/layout_title">
+
+            <android.support.design.widget.FloatingActionButton
+                style="@style/floating_button_title"
+                android:src="@drawable/ic_movie"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.example.admin.youtubev3.CustomView.CustomTextView
+                style="@style/text_title"
+                android:text="Phim ảnh" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_home_animtion"
+            style="@style/layout_title">
+
+            <android.support.design.widget.FloatingActionButton
+                style="@style/floating_button_title"
+                android:src="@drawable/ic_if_accessibility"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.example.admin.youtubev3.CustomView.CustomTextView
+                style="@style/text_title"
+                android:text="Hoạt hình" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_list_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

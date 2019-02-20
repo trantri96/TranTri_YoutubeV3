@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_kqt"
+        android:title="Không quan tâm"></item>
+    <item
+        android:id="@+id/item_add_xem_sau"
+        android:title="Thêm vào xem sau"></item>
+    <item
+        android:id="@+id/item_playlist"
+        android:title="Thêm vào video của bạn"></item>
+    <item
+        android:id="@+id/item_share"
+        android:title="Chia sẻ"></item>
+</menu>

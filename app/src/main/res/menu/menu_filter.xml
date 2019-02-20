@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_selectedt_video"
+        android:title="Video"></item>
+    <item
+        android:id="@+id/item_selectedt_channel"
+        android:title="Channel"></item>
+    <item
+        android:id="@+id/item_selectedt_playlist"
+        android:title="Playlist"></item>
+</menu>

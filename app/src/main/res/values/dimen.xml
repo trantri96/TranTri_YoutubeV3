@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_buttom">10dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+</resources>

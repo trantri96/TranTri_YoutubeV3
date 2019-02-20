@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/img_icon_history"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_history_white_24dp"
+        android:tint="@color/gray"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.example.admin.youtubev3.CustomView.CustomTextView
+        android:id="@+id/txtv_item_search"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/img_select_text_search"
+        android:layout_toRightOf="@+id/img_icon_history"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:text="khai"
+        android:textColor="@color/black"
+        android:textSize="8pt" />
+
+    <ImageView
+        android:id="@+id/img_select_text_search"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_if_arrow_up_left"
+        android:tint="@color/gray"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

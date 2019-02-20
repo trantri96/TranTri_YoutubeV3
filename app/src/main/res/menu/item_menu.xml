@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Trang chủ"></item>
+    <item
+        android:id="@+id/item_myvideo"
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:title="My Video"></item>
+    <item
+        android:id="@+id/item_library"
+        android:icon="@drawable/ic_folder_white_24dp"
+        android:title="Thư viện"></item>
+</menu>
